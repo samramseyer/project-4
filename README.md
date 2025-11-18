@@ -2,6 +2,12 @@
 
 A complete three-tier Q&A forum application built with the MERN stack (MongoDB, Express.js, React, Node.js). Users can register, login, ask questions, provide answers, vote on content, and build reputation in the community.
 
+## 🔗 Links
+
+- **GitHub Repository:** [https://github.com/samramseyer/project-4](https://github.com/samramseyer/project-4)
+- **Live Demo:** [https://samramseyer.github.io/project-4/](https://samramseyer.github.io/project-4/)
+- **Documentation:** See below for complete setup and usage instructions
+
 ## 🎯 Application Theme
 
 **TechHelp Hub** is a Q&A forum for programming and technology questions organized into focused categories:
