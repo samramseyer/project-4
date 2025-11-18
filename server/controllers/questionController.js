@@ -33,9 +33,11 @@ exports.getQuestions = async (req, res) => {
       questionQuery = questionQuery.sort('createdAt');
     } else if (sort === 'views') {
       questionQuery = questionQuery.sort('-views');
-    } else {
-      // Default: sort by upvotes (popularity)
+    } else if (sort === 'votes') {
       questionQuery = questionQuery.sort('-upvotes');
+    } else {
+      // Default: sort by newest (chronological)
+      questionQuery = questionQuery.sort('-createdAt');
     }
     
     const questions = await questionQuery;
